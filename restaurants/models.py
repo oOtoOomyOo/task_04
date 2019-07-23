@@ -6,3 +6,5 @@ class Restaurant(models.Model):
 	opening_time= models.TimeField()
 	closing_time= models.TimeField()
 
+	def __str__(self):
+		return self.name

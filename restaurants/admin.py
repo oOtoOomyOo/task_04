@@ -4,5 +4,3 @@ from .models import Restaurant
 
 admin.site.register(Restaurant)
 
-def __str__(self):
-	return self.name
